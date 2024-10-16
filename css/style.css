@@ -216,6 +216,30 @@ footer p {
   align-items: center;
 }
 
+.page_perso .perso__right {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Utilisation des colonnes pour aligner les informations */
+  grid-gap: 10px;
+  padding-left: 20px;
+}
+
+.page_perso .labels, .values {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.page_perso .label {
+  font-weight: normal;
+  color: black;
+}
+
+.page_perso .value {
+  font-weight: bold;
+  color: black;
+}
+
+
 @media screen and (max-width: 425px) {
   header {
     width: 90%;
