@@ -157,20 +157,41 @@ footer p {
   border-color: var(--red, #b71713);
 }
 
+.gryffindor img:hover + p {
+  color: var(--red, #b71713);
+}
+
+
 .slytherin img:hover {
   border-color: var(--green, #124b10);
+}
+
+.slytherin img:hover + p {
+  color: var(--green, #124b10);
 }
 
 .ravenclaw img:hover {
   border-color: var(--blue, #078cb1);
 }
 
+.ravenclaw img:hover + p {
+  color: var(--blue, #078cb1);
+}
+
 .hufflepuff img:hover {
   border-color: var(--yellow, #e1b50c);
 }
 
+.hufflepuff img:hover + p {
+  color: var(--yellow, #e1b50c);
+}
+
 .creature img:hover {
   border-color: dimgrey;
+}
+
+.creature img:hover + p{
+  color: dimgrey;
 }
 
 /* PAGE PERSO */
