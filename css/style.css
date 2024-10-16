@@ -108,6 +108,7 @@ footer p {
   padding: 30px;
   flex-wrap: wrap;
 }
+
 .houses > div {
   border-radius: 140px;
   width: 140px;
@@ -120,6 +121,13 @@ footer p {
 .houses img {
   width: 121px;
   height: 136px;
+}
+
+.houses img:hover {
+  border-radius: 50%;
+  background:white;
+  width: 140px;
+  height: 150px;
 }
 
 .characters {
@@ -143,6 +151,26 @@ footer p {
 .characters p {
   text-align: center;
   color: var(--Gold, #b99049);
+}
+
+.gryffindor img:hover {
+  border-color: var(--red, #b71713);
+}
+
+.slytherin img:hover {
+  border-color: var(--green, #124b10);
+}
+
+.ravenclaw img:hover {
+  border-color: var(--blue, #078cb1);
+}
+
+.hufflepuff img:hover {
+  border-color: var(--yellow, #e1b50c);
+}
+
+.creature img:hover {
+  border-color: dimgrey;
 }
 
 /* PAGE PERSO */
